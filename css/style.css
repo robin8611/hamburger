@@ -1,0 +1,231 @@
+@import url(https://fonts.bunny.net/css?family=gowun-batang:400,700);
+
+* {
+  outline: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: gray;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
+}
+
+body {
+  font-family: 'Gowun Batang', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_wrap {
+  border-bottom: 1px solid #ebebeb;
+  padding: 0.8vh;
+}
+
+.header_wrap nav {
+  max-width: 1182px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_wrap nav ul {
+  display: flex;
+}
+
+.header_wrap nav ul li {
+  margin-right: 20px;
+}
+
+.header_wrap nav ul:last-child {
+  position: absolute;
+  top: 8vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+figure {
+  width: 1182px;
+  margin: 0 auto;
+}
+
+.swiper_section {
+  
+}
+
+.swiper_article {
+
+}
+
+.wrap {
+  width: 500px;
+  margin: 10vh auto;
+  overflow: hidden;
+}
+
+.wrap .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 330px;
+}
+
+.swiper-pagination {
+  position: relative;
+}
+
+.moving_info {
+  background: #6f6f6f;
+  color: #fff;
+  padding: 0.8vh 0;
+}
+
+.section_beer {
+  padding-top: 40px;
+  max-width: 1182px;
+  margin: 0 auto;
+}
+
+.section_beer .h4_beer {
+  font-size: 30px;
+  margin-left: 50%;
+  transform: translateX(-25%);
+  margin-bottom: 40px;
+}
+
+.section_beer .grid p {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 3vh;
+}
+
+.section_beer .grid img {
+  width: 288px;
+}
+
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* gap: 20px; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100%; */
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(25%, auto));
+}
+
+section.contents {
+  max-width: 1182px;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+section.contents .announce h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+section.contents .announce .grid .card img {
+  width: 500px;
+}
+
+section.contents .announce .grid .card h3 {
+  position: relative;
+  top: 15vh;
+  left: 3vw;
+  z-index: 9;
+  color: #fff;
+  font-size: 30px;
+}
+
+section.contents .announce .grid .card:nth-of-type(2) h3 {
+  position: relative;
+  top: 8vh;
+  left: 30%;
+  color: black;
+}
+
+section.contents .announce .grid .card:nth-of-type(3) h3 {
+  position: relative;
+  color: #fff;
+  top: 9vh;
+  left: 20%;
+}
+
+section.contents .announce .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+section.contents .announce .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+section.company {
+  max-width: 1182px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+section.company div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.company div i {
+  font-size: 50px;
+}
+
+hr {
+  width: 1182px;
+  margin: 10vh auto;
+}
+
+footer.end {
+  max-width: 1182px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6vh;
+}
+
+#findSite {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #888;
+  text-align: center;
+}
+
+.btnGo {
+  padding: 3px 4px;
+  background: #888;
+  border: 1px solid #00bdec;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btnGo:hover {
+  transform: scale(0.98);
+}
